@@ -1,12 +1,16 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-
+import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div>Hi <a href="">Hello there</a></div>
-  )
-}
+    <>
+      <div className="columns is-mobile">
+        <div className="column is-full">
+          Hi <a href="">Hello there</a>
+        </div>
+        <div className="column">hello</div>
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
