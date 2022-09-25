@@ -16,15 +16,25 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@types/node": "18.7.15",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
     "@types/styled-components": "^5.1.26",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
+    "husky": "^8.0.1",
     "typescript": "4.8.2"
   },
   "resolutions": {
     "styled-components": "^5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
