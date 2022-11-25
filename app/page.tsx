@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import GlobalStyle from '../styles/GlobalStyle';
+
 
 const Home: NextPage = () => {
   return (
